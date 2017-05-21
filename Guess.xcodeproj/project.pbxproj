@@ -62,15 +62,12 @@
 		51178D531ED0CD9C0004CF59 /* Guess */ = {
 			isa = PBXGroup;
 			children = (
-				51178D541ED0CD9C0004CF59 /* AppDelegate.swift */,
 				51178D6A1ED0D8190004CF59 /* ArrayExtension.swift */,
 				51178D661ED0D1400004CF59 /* MenuViewController.swift */,
 				51178D681ED0D37C0004CF59 /* GameViewController.swift */,
-				51178D6C1ED20AB10004CF59 /* Sounds */,
 				51178D581ED0CD9C0004CF59 /* Main.storyboard */,
-				51178D5B1ED0CD9C0004CF59 /* Assets.xcassets */,
-				51178D5D1ED0CD9C0004CF59 /* LaunchScreen.storyboard */,
-				51178D601ED0CD9C0004CF59 /* Info.plist */,
+				51178D6C1ED20AB10004CF59 /* Sounds */,
+				51178D711ED22E930004CF59 /* Supporting Files */,
 			);
 			path = Guess;
 			sourceTree = "<group>";
@@ -82,6 +79,17 @@
 				51178D6D1ED20ABD0004CF59 /* wrong.mp3 */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		51178D711ED22E930004CF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51178D541ED0CD9C0004CF59 /* AppDelegate.swift */,
+				51178D5B1ED0CD9C0004CF59 /* Assets.xcassets */,
+				51178D5D1ED0CD9C0004CF59 /* LaunchScreen.storyboard */,
+				51178D601ED0CD9C0004CF59 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
